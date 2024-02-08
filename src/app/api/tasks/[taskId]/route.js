@@ -13,10 +13,6 @@ try {
 }
 }
 
-
-export async function POST(request){
-    
-}
 export async function PUT(request,{params}){
     try {
         
@@ -38,11 +34,9 @@ export async function DELETE(request,{params}){
         await Task.deleteOne({
             _id:taskId,
         })
-        return NextResponse.json({
-            message:"task deleted",
-            success:true,
-        })
+        return getResponseMessage("Task Deleted !!",200, true)
     } catch (error) {
+        console.log(error)
         return getResponseMessage("error in deleting",403,false)
     }
 }
