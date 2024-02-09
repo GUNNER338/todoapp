@@ -41,7 +41,7 @@ const ShowTasks = () => {
     <>
     <div className='container grid grid-cols-12 mt-3'>
     <div className='col-span-6 col-start-4'>
-        <h1 className='text-3xl text-center'>Your Tasks ({tasks.length})</h1>
+        <h1 className='text-3xl flex justify-center '>Your Tasks ({tasks.length})</h1>
         {tasks.map((tasks)=>(
             <Tasks tasks={tasks} key={tasks._id} deleteTaskParent={deleteTaskParent} />
         ))}

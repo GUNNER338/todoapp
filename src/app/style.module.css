@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+}
+
+.left{
+    /* background-color: red; */
+    width: 50%;
+    height: 90vh;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.textarea{
+    width: 50vw;
+    margin-left: 15vh;
+    margin-top: 20vh;
+}
+.textarea .para{
+    width: 80%;
+    font-family: poppins;
+    font-size: 1.3vw;
+}
+
+.btnparent{
+    /* border: 1px solid white; */
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+.btnparent .btn{
+    border: 1px solid white;
+    padding: 3px 20px;
+    cursor: pointer;
+    font-size: 2vw;
+    border-radius: 10px;
+    transition: 0.5s ease-in;
+}
+.btn:hover{
+    background-color: red;
+}
+
+.leftheader{
+    font-size: 60px;
+    font-weight: 900;
+    font-family: poppins;
+    word-spacing: 12px;
+}
+
+.right{
+    /* background-color: blue; */
+    width: 50%;
+    height: 90vh;
+    margin-right: 10px;
+}
+.image{
+    margin-top: 40px;
+}
+
+
+
